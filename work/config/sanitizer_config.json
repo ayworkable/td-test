@@ -1,0 +1,4 @@
+[
+  { "col_name": "value", "pyspark_rule": "f.lower(f.col('value'))" },
+  { "col_name": "value", "pyspark_rule": "f.regexp_replace(f.col('value'), '[ \t]', '____')" }
+]
