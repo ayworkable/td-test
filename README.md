@@ -6,6 +6,8 @@
 
 ## Question 2:
 
+The entry python application is located [./work/pyspark/src/main.py](https://github.com/ayworkable/td-test/blob/main/work/pyspark/src/main.py).
+
 ### Prepare python & dependencies (for dev)
 ```
 rm -rf ./venv && \
