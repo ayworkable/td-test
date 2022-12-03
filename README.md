@@ -22,7 +22,7 @@ docker-compose up -d
 
 ### Run
 ```
-docker exec -it spark-docker-spark-1 ./bin/spark-submit \                                                                                                      (base) 
+docker exec -it spark-docker-spark-1 ./bin/spark-submit \                                                                                                 
   --master spark://spark:7077 \
   ./work/pyspark/src/main.py \
   ./work/data/input/sample.txt ./work/data/output/sample-output.txt ./work/config/sanitizer_config.json
